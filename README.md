@@ -1,3 +1,30 @@
+# 该分支基于`Gradle 6.8.2`与`OpenJDK11`
+
+# 如果使用新版本请切换到`main`分支
+
+# 目录
+
+* [1 环境](#1-环境)
+* [2 `Java + Gradle`](#2-java--gradle)
+  * [2.1 创建项目](#21-创建项目)
+  * [2.2 修改`build.gradle`](#22-修改buildgradle)
+  * [2.3 创建模块](#23-创建模块)
+  * [2.4 编写模块](#24-编写模块)
+    * [2.4.1 `service`模块](#241-service模块)
+    * [2.4.2 `app`模块](#242-app模块)
+  * [2.5 运行](#25-运行)
+  * [2.6 测试](#26-测试)
+* [3 `Kotlin + Gradle + Kotlin DSL`](#3-kotlin--gradle--kotlin-dsl)
+  * [3.1 创建项目](#31-创建项目)
+  * [3.2 修改`build.gradle.kts`](#32-修改buildgradlekts)
+  * [3.3 创建模块](#33-创建模块)
+  * [3.4 编写模块](#34-编写模块)
+    * [3.4.1 `service`模块](#341-service模块)
+    * [3.4.2 `app`模块](#342-app模块)
+  * [3.5 运行](#35-运行)
+  * [3.6 测试](#36-测试)
+* [4 代码](#4-代码)
+
 # 1 环境
 - `Gradle 6.8.2`
 - `Spring Boot 2.4.3`
@@ -371,3 +398,8 @@ class KotlinTest {
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210302201159661.png)
 
 测试通过，这样`Kotlin+Gradle+Kotlin DSL`的多模块`Spring Boot`项目就算创建完成了。
+
+# 4 代码
+
+- `JavaGradle`为`Java`+`Gradle`的代码
+- `KotlinDSLGradle`为`Kotlin`+`KotlinDSL`+`Gradle`的代码
