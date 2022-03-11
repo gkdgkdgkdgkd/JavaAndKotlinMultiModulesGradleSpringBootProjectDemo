@@ -1,4 +1,4 @@
-rootProject.name = 'demo'
+rootProject.name = 'JavaGradle'
 include 'service'
 include 'app'
 

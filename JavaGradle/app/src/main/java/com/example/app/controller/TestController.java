@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.app.controller;
 
 import com.example.service.TestService;
 import lombok.RequiredArgsConstructor;
@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class TestController {
     private final TestService service;
+
     @GetMapping("/test")
-    public String test(){
+    public String test() {
         return service.test();
     }
 }

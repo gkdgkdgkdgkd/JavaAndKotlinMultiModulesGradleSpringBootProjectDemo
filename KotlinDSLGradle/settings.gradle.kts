@@ -1,3 +1,3 @@
-rootProject.name = "demo"
-include("app")
+rootProject.name = "KotlinDSLGradle"
 include("service")
+include("app")
